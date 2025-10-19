@@ -1,0 +1,143 @@
+/* NAV CSS */
+body {
+  padding: 0 160px;
+  text-decoration: none;
+  list-style: none;
+}
+header {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.navbar {
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+}
+.nav-container {
+  min-width: 890px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-logo img {
+  background-image: cover;
+  width: auto;
+  height: 35px;
+  padding: 0 5px;
+}
+.nav-logo a {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  text-decoration: none;
+  align-items: center;
+  gap: 40px;
+  color: #333;
+}
+
+.nav-menu .nav-item a {
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+}
+
+/* LOGIN */
+.login {
+  transition: all 0.3s ease;
+  text-align: center;
+}
+.login a {
+  width: 175px;
+  height: 56px;
+  background-color: #5d38de;
+  font-size: 20px;
+  border-radius: 30px;
+  color: #fff;
+  padding: 16px 32px;
+}
+
+.login:hover {
+  transform: scale(1.05);
+}
+.nav-menu .nav-item a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: #5d38de;
+  transition: width 0.3s ease;
+}
+.nav-menu .nav-item a:hover {
+  color: #5d38de;
+}
+
+.nav-menu .nav-item a:hover::after {
+  width: 100%;
+}
+
+/* introduct */
+.introduce {
+  /* display: flex;
+  flex-direction: column; */
+}
+.our-mentors {
+  display: block;
+  text-align: center;
+  width: 160px;
+  font-size: 20px;
+  color: #5d38de;
+  padding: 10px 20px;
+  opacity: 0.7;
+  background-color: #f5f2ff;
+  font-weight: 600;
+  border-radius: 25px;
+  margin-bottom: 25px;
+}
+.introduce h2 {
+  max-width: 600px;
+  font-size: 60px;
+  font-weight: 500;
+  color: black;
+}
+
+.Review {
+  display: flex;
+  align-items: center;
+}
+.img-reviews {
+  display: flex;
+}
+.img-reviews img {
+  border-radius: 50%;
+}
+.img-reviews .item:not(:first-child) {
+  margin-left: -10px;
+}
+
+.data-reviews {
+  margin-left: 20px;
+}
+.data-reviews .quantity-reviews {
+  font-size: 15px;
+}
+
+.button-introduce {
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+}
