@@ -1,0 +1,191 @@
+.content-wrapper-01 {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  background-color: #5d38de;
+  padding: 100px 300px;
+  margin: 130px 0;
+  border-radius: 30px;
+}
+
+.subr {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subr h2 {
+  font-size: 50px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.subr p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+/* .subscribe-form {
+    display: flex;
+    align-items: center;
+  }
+  .input {
+    position: relative;
+  }
+  .input input {
+    width: 350px;
+    height: auto;
+    padding: 10px 10px;
+    border-radius: 25px;
+    background-color: #5d38de;
+    border: solid #979494 1px;
+  }
+  input::placeholder {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 30px;
+  }
+  
+  .input i {
+    position: absolute;
+    left: 15px;
+  } */
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap; /* để co lại khi màn hình nhỏ */
+}
+
+.input {
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: 1.5px solid rgba(255, 255, 255, 0.6);
+  border-radius: 40px;
+  background: transparent;
+  padding: 10px 16px;
+  width: 380px;
+}
+
+.input i {
+  position: absolute;
+  left: 16px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 16px;
+}
+
+.input .email {
+  width: 100%;
+  padding: 5px 5px 5px 38px; /* chừa chỗ cho icon */
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 15px;
+}
+
+.input .email::placeholder {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+}
+
+.btn {
+  background: #fff;
+  color: #5a34ea;
+  border: none;
+  padding: 15px 28px;
+  border-radius: 40px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #f1f1f1;
+}
+
+.human01 {
+  position: absolute;
+  left: -50px;
+  bottom: 0;
+  width: 400px;
+  height: auto;
+}
+.human02 {
+  position: absolute;
+  right: -50px;
+  bottom: 0;
+  width: 400px;
+  height: auto;
+}
+
+/* Content warpper - 02 */
+
+.content-wrapper-02 {
+  margin: 130px 0;
+  display: flex;
+  max-width: 100%;
+  justify-content: space-between;
+}
+.join-team {
+  flex: 5;
+  max-width: 600px;
+}
+
+.join-team h2 {
+  font-size: 55px;
+  font-weight: 500;
+}
+.join-team p {
+  font-size: 20px;
+  max-width: 600px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.join-team .btn {
+  background-color: #5a34ea;
+  color: #fff;
+}
+
+.img-join {
+  position: relative;
+  flex: end;
+}
+.bg {
+  width: 450px;
+  height: 450px;
+  border-radius: 20px;
+  background-color: #5a34ea;
+  z-index: 1;
+}
+
+.img-join #img-join {
+  position: absolute;
+  bottom: 0%;
+  right: 0;
+  width: 100%;
+}
+
+.img-join .experienced {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.experienced .img-reviews {
+  padding-bottom: 5px;
+}
+.experienced .img-reviews .item {
+  width: 30px;
+}
